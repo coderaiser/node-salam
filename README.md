@@ -68,6 +68,14 @@ salam.listen(socket, {
 });
 ```
 
+## Environments
+
+In old `node.js` environments that not fully supports `es2015`, `salam` could be used with:
+
+```js
+var salam = require('salam/legacy');
+```
+
 ## License
 
 MIT
