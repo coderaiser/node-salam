@@ -84,7 +84,7 @@ function getOperation(op) {
     if (op === 'pack')
         return onezip.pack;
     
-    if (op === 'extract');
+    if (op === 'extract')
         return onezip.extract;
   
     throw Error('op could be pack/extract only!');
@@ -102,7 +102,7 @@ function operate(socket, op, from, to, files) {
         socket.emit('progress', percent);
     });
     
-    packer.on('error', (error, name) => {
+    packer.on('error', (error) => {
         const message = error.message;
         const onAbort = () => {
             packer.abort();

@@ -3,6 +3,7 @@
 /* global io */
 
 import Emitify from 'emitify';
+import {js as loadJs} from 'load.js';
 
 export default (prefix, socketPath, callback) => {
     if (!callback) {

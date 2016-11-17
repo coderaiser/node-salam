@@ -35,16 +35,6 @@ module.exports.listen = (socket, options) => {
     packer(socket, options);
 };
 
-function checkOption(isOption) {
-    if (typeof isOption === 'function')
-        return isOption();
-    
-    if (typeof isOption === 'undefined')
-        return true;
-    
-    return isOption;
-}
-
 function _salamFn(options, req, res, next) {
     const o = options || {};
     const prefix = o.prefix || '/salam';
@@ -55,11 +45,8 @@ function _salamFn(options, req, res, next) {
     
     req.url = req.url.replace(prefix, '');
     
-    console.log('->', req.url);
-    
     if (/^\/salam\.js(\.map)?$/.test(req.url))
         req.url = '/dist' + req.url;
-    console.log(':->', req.url);
     
     next();
 }
