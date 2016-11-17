@@ -78,7 +78,7 @@ var salam = require('salam/legacy');
 
 ## Related
 
-[Ishtar](https://github.com/coderaiser/node-ishtar "Ishtar") - Pack and extract .tar.gz archives middleware.
+- [Ishtar](https://github.com/coderaiser/node-ishtar "Ishtar") - Pack and extract .tar.gz archives middleware.
 
 ## License
 
