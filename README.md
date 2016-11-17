@@ -76,6 +76,10 @@ In old `node.js` environments that not fully supports `es2015`, `salam` could be
 var salam = require('salam/legacy');
 ```
 
+## Related
+
+[Ishtar](https://github.com/coderaiser/node-ishtar "Ishtar") - Pack and extract .tar.gz archives middleware.
+
 ## License
 
 MIT
