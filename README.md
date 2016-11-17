@@ -15,7 +15,6 @@ Could be loaded from url `/salam/salam.js`.
 ```js
 const prefix = '/salam';
 
-/* could be one argument: callback */
 salam(prefix, function(packer) {
     const from = '/';
     const to = '/tmp';
