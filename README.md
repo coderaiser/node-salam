@@ -1,4 +1,4 @@
-# Salam [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL]
+# Salam [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
 Pack and extract `zip` archives middleware based on [socket.io](http://socket.io "Socket.io") and [onezip](https://github.com/coderaiser/node-onezip "OneZip").
 
@@ -78,4 +78,7 @@ MIT
 [NPMURL]:                   https://npmjs.org/package/salam "npm"
 [DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-salam "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
+
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/node-salam  "Build Status"
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-salam/master.svg?style=flat
 
