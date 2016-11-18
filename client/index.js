@@ -66,14 +66,13 @@ function init() {
 }
 
 function ProgressProto(room, socketPath, salam) {
-    var socket,
-        href            = getHost(),
-        FIVE_SECONDS    = 5000;
+    const href = getHost();
+    const FIVE_SECONDS = 5000;
     
     if (!(this instanceof ProgressProto))
         return new ProgressProto(room, socketPath, salam);
     
-    socket = io.connect(href + room, {
+    const socket = io.connect(href + room, {
         'max reconnection attempts' : Math.pow(2, 32),
         'reconnection limit'        : FIVE_SECONDS,
         path                        : socketPath
