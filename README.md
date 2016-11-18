@@ -46,7 +46,7 @@ salam(prefix, function(packer) {
 ## Server
 
 ```js
-var salam = require('salam');
+const salam = require('salam');
 const http = require('http');
 const express = require('express');
 const io = require('socket.io');
