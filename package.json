@@ -50,7 +50,7 @@
   },
   "homepage": "https://github.com/coderaiser/node-salam",
   "dependencies": {
-    "currify": "^1.0.0",
+    "currify": "^2.0.0",
     "express": "^4.14.0",
     "jaguar": "^3.0.0",
     "mellow": "^2.0.0",
