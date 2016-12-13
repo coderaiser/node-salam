@@ -59,7 +59,7 @@
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
-    "babel-preset-es2015-rollup": "^1.2.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
     "coveralls": "^2.11.11",
     "emitify": "^2.1.1",
     "eslint": "^3.10.2",
