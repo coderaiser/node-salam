@@ -1,3 +1,17 @@
+2017.02.13, v1.0.2
+
+feature:
+- (client) index -> salam: improve sorce maps
+- (package) rollup v0.41.1
+- (package) rollup-plugin-common.js v7.0.0
+- (package) rollup-watch v3.2.2
+- (package) rollup-plugin-commonjs v6.0.0
+- (package) rollup v0.37.0
+- (package) babel-preset-es2015-rollup v3.0.0
+- (package) nyc v10.0.0
+- (package) currify v2.0.0
+
+
 2016.11.23, v1.0.1
 
 feature:
