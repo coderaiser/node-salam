@@ -3,7 +3,7 @@
 const onezip = require('onezip/legacy');
 const mellow = require('mellow');
 
-module.exports = function(socket, options) {
+module.exports = (socket, options) => {
     if (!options)
         options = {};
     
