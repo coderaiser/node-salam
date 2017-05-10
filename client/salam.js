@@ -2,7 +2,7 @@
 
 /* global io */
 
-import Emitify from 'emitify';
+import Emitify from 'emitify/legacy';
 import {js as loadJs} from 'load.js';
 
 export default (prefix, socketPath, callback) => {
