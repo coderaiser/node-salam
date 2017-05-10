@@ -1,3 +1,13 @@
+2017.05.10, v1.0.3
+
+feature:
+- (package) socket.io v2.0.1
+- (package) socket.io-client v2.0.1
+- (package) emitify v3.0.2
+- (package) rollup-plugin-node-resolve v3.0.0
+- (package) rollup-plugin-commonjs v8.0.2
+
+
 2017.02.13, v1.0.2
 
 feature:
