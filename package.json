@@ -62,7 +62,7 @@
     "babel-preset-es2015-rollup": "^3.0.0",
     "coveralls": "^2.11.11",
     "emitify": "^3.0.2",
-    "eslint": "^3.10.2",
+    "eslint": "^4.0.0",
     "freeport": "^1.0.5",
     "load.js": "^1.1.4",
     "nodemon": "^1.11.0",
