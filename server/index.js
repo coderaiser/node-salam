@@ -11,7 +11,9 @@ const packer = require('./packer');
 
 const salamFn = currify(_salamFn);
 
-module.exports = (options = {}) => {
+module.exports = (options) => {
+    options = options || {};
+    
     const router = Router();
     const prefix = options.prefix || '/salam';
     
