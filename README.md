@@ -15,7 +15,7 @@ Could be loaded from url `/salam/salam.js`.
 ```js
 const prefix = '/salam';
 
-salam(prefix, function(packer) {
+salam(prefix, (packer) => {
     const from = '/';
     const to = '/tmp';
     const names = [
