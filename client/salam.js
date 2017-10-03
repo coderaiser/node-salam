@@ -1,11 +1,9 @@
 'use strict';
 
-/* global io */
+const Emitify = require('emitify/legacy');
+const {connect} = require('socket.io-client');
 
-import Emitify from 'emitify/legacy';
-import {js as loadJs} from 'load.js';
-
-export default (prefix, socketPath, callback) => {
+module.exports = (prefix, socketPath, callback) => {
     if (!callback) {
         if (!socketPath) {
             callback    = prefix;
@@ -18,19 +16,10 @@ export default (prefix, socketPath, callback) => {
     
     socketPath += '/socket.io';
     
-    loadSocket(prefix, () => {
-        init();
-        
-        if (typeof callback === 'function')
-            callback(Salam(prefix, socketPath));
-    });
-}
-
-function loadSocket(prefix, fn) {
-    if (window.io)
-        return fn();
+    init();
     
-    loadJs(`${prefix}/dist/socket.io.js`, fn);
+    if (typeof callback === 'function')
+        callback(Salam(prefix, socketPath));
 }
 
 function Salam(prefix, socketPath) {
@@ -72,7 +61,7 @@ function ProgressProto(room, socketPath, salam) {
     if (!(this instanceof ProgressProto))
         return new ProgressProto(room, socketPath, salam);
     
-    const socket = io.connect(href + room, {
+    const socket = connect(href + room, {
         'max reconnection attempts' : Math.pow(2, 32),
         'reconnection limit'        : FIVE_SECONDS,
         path                        : socketPath
