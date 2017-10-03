@@ -1,3 +1,12 @@
+2017.10.03, v1.0.5
+
+feature:
+- (client) rollup -> webpack
+- (package) coveralls v3.0.0
+- (package) rollup-plugin-babel v3.0.1
+- (package) rollup v0.45.2
+
+
 2017.07.25, v1.0.4
 
 fix:
