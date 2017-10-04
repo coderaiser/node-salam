@@ -47,7 +47,7 @@ function _salamFn(options, req, res, next) {
     
     req.url = req.url.replace(prefix, '');
     
-    if (/^\/salam\.js(\.map)?$/.test(req.url))
+    if (/^\/(salam|0)\.js(\.map)?$/.test(req.url))
         req.url = '/dist' + req.url;
     
     next();

@@ -1,5 +1,9 @@
 {
   "presets": [
     "env"
+  ],
+  "plugins": [
+    "dynamic-import-webpack"
   ]
 }
+
