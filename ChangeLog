@@ -1,3 +1,9 @@
+2017.10.04, v1.0.6
+
+feature:
+- (salam) decrease bundle size: dynamic load socket-io
+
+
 2017.10.03, v1.0.5
 
 feature:
