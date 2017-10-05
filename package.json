@@ -1,6 +1,6 @@
 {
   "name": "salam",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "pack and extract zip archives middleware",
   "main": "server/index.js",
   "scripts": {

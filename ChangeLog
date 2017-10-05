@@ -1,3 +1,9 @@
+2017.10.05, v1.0.7
+
+fix:
+- (salam) connect -> io.connect
+
+
 2017.10.04, v1.0.6
 
 feature:
